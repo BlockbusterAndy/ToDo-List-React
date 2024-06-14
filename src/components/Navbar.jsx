@@ -1,10 +1,11 @@
 import React from "react";
+import { CiBoxList } from "react-icons/ci";
 
 const Navbar = () => {
   return (
     <nav className=" bg-gradient-to-r from-cyan-200 to-cyan-500 flex justify-between px-[6rem] py-4">
       <div>
-        <span className=" text-2xl font-bold text-gray-900">Listy</span>
+        <span className=" flex items-center gap-2 text-2xl font-bold text-gray-900">Listly <CiBoxList /> </span>
       </div>
       <ul className=" flex gap-8">
         <a href="#">
